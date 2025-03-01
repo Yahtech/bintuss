@@ -13,7 +13,7 @@
     
     
     document.addEventListener("DOMContentLoaded", function() {
-        const text = "Bintus Travel Consultant is a trusted and innovative provider of travel and consultancy services, dedicated to making your journeys seamless and your plans stress-free. Whether you're dreaming of exploring new destinations, need tailored travel solutions, or require expert advice for your trips, Bintus Travel Consultant is your ideal partner.";
+        const text = "Bintus Travel Consultant is a trusted and innovative provider of travel and consultancy services, dedicated to making your journeys seamless and your plans stress-free.";
         const textElement = document.getElementById("liveTextt");
         let index = 0;
       
