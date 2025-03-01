@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bintus Consult Letterhead</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="letterhead-container">
+        <!-- Header Section -->
+        <div class="header">
+            <a href="index.html" >
+                <img src="img/logo1.png" alt="Bintus Consult Logo">
+            </a>
+            <div class="header-text">
+                <h1>Bintus Travel Consultant</h1>
+                <p>Reliable Solutions for All Your Travel Needs</p>
+            </div>
+        </div>
+
+        <!-- Main Content Placeholder -->
+    
+    
+        <!-- Booking Form -->
+        <div class="form-container">
+            <h2>Visa Passport Booking Form</h2>
+            <form>
+                <!-- Passport Upload -->
+                <div class="form-group">
+                    <label for="passport-upload">Upload Passport</label>
+                    <input type="file" id="passport-upload" accept=".jpg, .jpeg, .png, .pdf" required>
+                </div>
+    
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" placeholder="Enter your full name" required>
+                </div>
+    
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+    
+                <!-- Phone -->
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                </div>
+    
+                <!-- Destination -->
+                <div class="form-group">
+                    <label for="destination">Destination Country</label>
+                    <select id="destination" required>
+                        <option value="">Select a destination</option>
+                        <option value="usa">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+    
+                <!-- Visa Type -->
+                <div class="form-group">
+                    <label for="visa-type">Visa Type</label>
+                    <select id="visa-type" required>
+                        <option value="">Select visa type</option>
+                        <option value="tourist">Tourist Visa</option>
+                        <option value="business">Business Visa</option>
+                        <option value="student">Student Visa</option>
+                    </select>
+                </div>
+    
+                <!-- Special Requests -->
+                <div class="form-group">
+                    <label for="special-requests">Special Requests (Optional)</label>
+                    <textarea id="special-requests" placeholder="Enter any special requests"></textarea>
+                </div>
+    
+                <!-- Submit Button -->
+                <button type="submit" class="btn-submit">Submit Booking</button>
+            </form>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>
+                <span>Bintus Travel Consultant</span> | Address: 123 Travel Street, City, Country | Phone: +123 456 7890 | Email: info@bintusconsult.com
+            </p>
+        </div>
+    </div>
+</body>
+</html>
