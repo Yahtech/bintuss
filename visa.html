@@ -32,9 +32,6 @@
                     <input type="file" id="passport-upload" accept=".jpg, .jpeg, .png, .pdf" required>
                 </div>
         
-                <!-- Supporting Document 1 -->
-                
-        
                 <!-- Full Name -->
                 <div class="form-group">
                     <label for="full-name">Full Name</label>
@@ -53,15 +50,20 @@
                     <input type="tel" id="phone" placeholder="Enter your phone number" required>
                 </div>
         
-                <!-- Destination -->
+                <!-- Destination (Dropdown) -->
                 <div class="form-group">
-                    <label for="destination">Destination Country</label>
-                    <select id="destination" required>
-                        <option value="">Select a destination</option>
+                    <label for="destination">Select Destination(s)</label>
+                    <select id="destination" name="destination" multiple required>
                         <option value="usa">United States</option>
                         <option value="uk">United Kingdom</option>
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
+                        <option value="canada">China</option>
+                        <option value="canada">Saudi Arabia</option>
+                        <option value="canada">Egypt</option>
+                        <option value="canada">Cairo</option>
+                        <option value="canada">Malaysia</option>
+                        <option value="canada">Ghana</option>
                     </select>
                 </div>
         
@@ -81,18 +83,18 @@
                     <label for="special-requests">Special Requests (Optional)</label>
                     <textarea id="special-requests" placeholder="Enter any special requests"></textarea>
                 </div>
+        
+                <!-- Uploads -->
                 <div class="form-group">
                     <label for="supporting-document-1">Upload Your Travel Passport</label>
                     <input type="file" id="supporting-document-1" accept=".jpg, .jpeg, .png, .pdf" required>
                 </div>
         
-                <!-- Upload Your Travel Passport -->
                 <div class="form-group">
                     <label for="supporting-document-2">Upload Your Statement of Account</label>
                     <input type="file" id="supporting-document-2" accept=".jpg, .jpeg, .png, .pdf" required>
                 </div>
         
-                <!-- Supporting Document 3 -->
                 <div class="form-group">
                     <label for="supporting-document-3">Other Necessary Document</label>
                     <input type="file" id="supporting-document-3" accept=".jpg, .jpeg, .png, .pdf" required>
@@ -102,6 +104,8 @@
                 <button type="submit" class="btn-submit">Submit Booking</button>
             </form>
         </div>
+        
+        
         
 
         <!-- Footer Section -->
